@@ -12,10 +12,10 @@ const Contact = () => {
 
     emailjs
       .sendForm(
-        "service_exy8g1w",     // ใส่ Service ID
-        "template_lwgu8bp",    // ใส่ Template ID
+        "service_exy8g1w",     
+        "template_lwgu8bp",    
         form.current,
-        "BzOibKRH-7WfUuwKk"      // ใส่ Public Key
+        "BzOibKRH-7WfUuwKk"      
       )
       .then(() => {
         toast.success('ส่งข้อความสำเร็จ')
@@ -35,7 +35,7 @@ const Contact = () => {
 
       <div className="max-w-7xl mx-auto grid md:grid-cols-2 gap-12 items-start">
 
-        {/* LEFT SIDE */}
+
         <div>
           <h2 className="text-4xl font-bold mb-6">
             เปิดรับโอกาสในการเรียนรู้และร่วมพัฒนาโปรเจกต์ใหม่ ๆ
@@ -74,7 +74,7 @@ const Contact = () => {
           </div>
         </div>
 
-        {/* RIGHT SIDE FORM */}
+
         <div className="bg-white/5 p-8 rounded-2xl backdrop-blur-md border border-white/10 shadow-xl">
 
           <form ref={form} onSubmit={sendEmail} className="space-y-6">

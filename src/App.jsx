@@ -1,7 +1,7 @@
 import React from 'react'
 import 'react-toastify/dist/ReactToastify.css';
 import { ToastContainer } from 'react-toastify';
-import Navbar from './components/navbar'
+import Navbar from "./components/Navbar"
 import About from './components/about'
 import Projects from './components/Projects'
 import Contact from './components/Contact'
