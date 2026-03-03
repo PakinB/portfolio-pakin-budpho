@@ -32,8 +32,8 @@ const Projects = () => {
     {
       title: "Portfolio Website",
       desc: "เว็บไซต์แนะนำตัว พร้อมแสดงผลงาน และระบบติดต่อผ่าน EmailJS",
-      website: "https://your-portfolio.com",
-      github: "https://github.com/yourusername/portfolio",
+      website: "https://pakin-budpho.xyz/",
+      github: "https://github.com/PakinB/portfolio-pakin-budpho",
       image: projectPort,
       tech: ["React", "TailwindCSS", "EmailJS"]
     },
