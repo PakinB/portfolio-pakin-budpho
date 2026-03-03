@@ -1,0 +1,14 @@
+@import "tailwindcss";
+
+
+body {
+  font-family: 'Kanit', sans-serif;
+  
+}
+html {
+  scroll-behavior: smooth;
+}
+section {
+  scroll-margin-top: 80px;
+}
+
