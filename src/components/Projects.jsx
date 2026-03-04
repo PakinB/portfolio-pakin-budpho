@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import projectPort from "../assets/project1.png"
 import projectTask from "../assets/projectTask.png";
+import projectBooking from "../assets/projectBooking.png"
 const Projects = () => {
   const [openIndex, setOpenIndex] = useState(null);
 
@@ -14,7 +15,7 @@ const Projects = () => {
       tech: ["React + Tailwind", "Node.js + Express", "MySQL", "JWT Authentication"]
     },
     {
-      title: "Task Management App",
+      title: "Task Management System Website",
       desc: "ระบบจัดการงาน Admin สามารถเพิ่ม ลบ แก้ไข และติดตามสถานะงานของพนักงานได้ Member สามารถติดตามและอัพเดตงานที่ได้รับมอบหมายได้ with MERN",
       website: "https://task-management-system-eight-liard.vercel.app/",
       github: "https://github.com/PakinB/task-management-system",
@@ -22,12 +23,12 @@ const Projects = () => {
       tech: ["React", "Express", "MongoDB", "NodeJS", "TailWindCSS","React-dom,Axios,Moment"]
     },
     {
-      title: "Booking Website",
-      desc: "เว็บไซต์แนะนำตัว พร้อมแสดงผลงาน และระบบติดต่อผ่าน EmailJS",
-      website: "https://your-portfolio.com",
-      github: "https://github.com/yourusername/portfolio",
-      image: "/images/ecom.jpg",
-      tech: ["React", "TailwindCSS", "EmailJS"]
+      title: "Booking System Website",
+      desc: "เว็บไซต์จองตั๋วงาน Concert, Event ซึ่งมีระบบ Dashboard แอดมินดูได้ว่ามีใครจองตั๋วทั้งหมดกี่ใบมีคนจองกี่ใบและสามารถเพิ่ม-ลบ-แก้ไข Event ได้ with MERN",
+      website: "https://booking-system-gamma-wheat.vercel.app/",
+      github: "https://github.com/PakinB/booking-system",
+      image: projectBooking,
+      tech: ["React", "TailwindCSS", "MongoDB", "NodeJS", "React-dom, Axios"]
     },
     {
       title: "Portfolio Website",
