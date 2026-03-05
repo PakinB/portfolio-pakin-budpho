@@ -118,7 +118,7 @@ const About = () => {
                         </a>
 
                         <a
-                            href="https://line.me/ti/p/@goddeadz"
+                            href="https://line.me/ti/p/x2ZQQq_Pyx"
                             target="_blank"
                             rel="noopener noreferrer"
                             className="size-12 flex items-center justify-center 
