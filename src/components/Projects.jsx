@@ -2,17 +2,18 @@ import React, { useState } from "react";
 import projectPort from "../assets/project1.png"
 import projectTask from "../assets/projectTask.png";
 import projectBooking from "../assets/projectBooking.png"
+import projecEcom from "../assets/projectEcom.png"
 const Projects = () => {
   const [openIndex, setOpenIndex] = useState(null);
 
   const projectData = [
     {
       title: "E-Commerce Website",
-      desc: "ระบบร้านค้าออนไลน์ครบวงจร มีระบบตะกร้า สั่งซื้อ ชำระเงิน และ dashboard สำหรับ admin",
-      website: "https://your-ecommerce.com",
-      github: "https://github.com/yourusername/ecommerce",
-      image: "/images/ecom.jpg",
-      tech: ["React + Tailwind", "Node.js + Express", "MySQL", "JWT Authentication"]
+      desc: "ระบบร้านค้าเสื้อออนไลน์ครบวงจร มีระบบตะกร้า สั่งซื้อ ชำระเงิน และ dashboard สำหรับ admin with MERN",
+      website: "https://e-commerce-system-website.vercel.app/",
+      github: "https://github.com/PakinB/e-commerce-system",
+      image: projecEcom,
+      tech: ["React + Tailwind", "Node.js", "Express", "MongoDB", "React-dom", "Axios", "bcript"]
     },
     {
       title: "Task Management System Website",
@@ -20,7 +21,7 @@ const Projects = () => {
       website: "https://task-management-system-eight-liard.vercel.app/",
       github: "https://github.com/PakinB/task-management-system",
       image: projectTask,
-      tech: ["React", "Express", "MongoDB", "NodeJS", "TailWindCSS","React-dom,Axios,Moment"]
+      tech: ["React", "Express", "MongoDB", "NodeJS", "TailWindCSS", "React-dom,Axios,Moment"]
     },
     {
       title: "Booking System Website",
