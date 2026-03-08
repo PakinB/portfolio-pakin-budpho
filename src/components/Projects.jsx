@@ -39,13 +39,13 @@ const Projects = () => {
       image: projectPort,
       tech: ["React", "TailwindCSS", "EmailJS"]
     },
-    // {
-    //   title: "Flutter App",
-    //   desc: "ระบบจัดการงาน สามารถเพิ่ม ลบ แก้ไข และติดตามสถานะงานได้",
-    //   website: "https://your-taskapp.com",
-    //   github: "https://github.com/yourusername/taskapp",
-    //   tech: ["React", "Express", "MongoDB"]
-    // }
+    {
+      title: "Flutter App",
+      desc: "ระบบจัดการงาน สามารถเพิ่ม ลบ แก้ไข และติดตามสถานะงานได้",
+      website: "https://your-taskapp.com",
+      github: "https://github.com/yourusername/taskapp",
+      tech: ["React", "Express", "MongoDB"]
+    }
   ];
 
   return (
